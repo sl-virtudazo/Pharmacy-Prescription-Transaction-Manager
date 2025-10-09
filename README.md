@@ -8,7 +8,7 @@ The Pharmacy Prescription Transaction Manager is a Java-based system that helps 
 	2. UI/UX Designer - Lyka Jane L. Cabillan
 	3. Programmer - Jasmine Z. Cadeliña
 	4. File Handling Manager - Jester Mark A. Oton
-	5. Project Leader - Samantha Lewis A. Virtudazo 
+	5. Project Leader/Documentation - Samantha Lewis A. Virtudazo 
 
 **🖥️ HOW TO RUN THE PROGRAM:**
 
