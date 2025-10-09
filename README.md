@@ -1,37 +1,40 @@
-**PHARMACY PRESCRIPTION TRANSACTION MANAGER**
+**💊 PHARMACY PRESCRIPTION TRANSACTION MANAGER**
 
-The Pharmacy Prescription Transaction Manager is a Java console and GUI system that simplifies pharmacy transactions, from recording prescriptions to generating receipts. It’s built with Java Swing, HashMap, and File I/O for quick access, organized storage, and smooth processing. This project focuses on improving accuracy and speed in pharmacy operations while reducing manual errors. It’s a clean, simple prototype that shows how data structures and object-oriented programming can make real-world processes more efficient.
+The Pharmacy Prescription Transaction Manager is a Java-based system that helps make pharmacy transactions faster and more organized. It manages prescriptions, billing, and patient records through an easy-to-use graphical interface built with Java Swing and JOptionPane. The system uses HashMap and hashing for quick data access and Java File I/O for safe data storage. Its main goal is to improve accuracy, reduce manual errors, and ensure efficient processing in pharmacy operations. Overall, it serves as a simple and functional prototype that applies data structures and object-oriented programming to real-world pharmacy management.
 
-**TEAM MEMBERS AND ROLES:**
+**👨🏻‍💻 TEAM MEMBERS AND ROLES:**
 
-	1. Tester/Debugger - Red C. Buenafe
-	2. User Interface - Lyka Jane L. Cabillan
-	3. Backend/Algorithm - Jasmine Z. Cadeliña
-	4. File-handling/Persistence - Jester Mark A. Oton
-	5. Project Lead/Documentation - Samantha Lewis A. Virtudazo 
+	1. Quality Assurance - Red C. Buenafe
+	2. UI/UX Designer - Lyka Jane L. Cabillan
+	3. Programmer - Jasmine Z. Cadeliña
+	4. File Handling Manager - Jester Mark A. Oton
+	5. Project Leader - Samantha Lewis A. Virtudazo 
 
-**HOW TO RUN THE PROGRAM:**
+**🖥️ HOW TO RUN THE PROGRAM:**
 
-**Option 1:** Ensure you have Java JDK 8 or higher installed.
+**📌 Option 1:** Running the project via Command Line
 
-	1. Go to the project directory: cd pharmacy-prescription-manager/src
-	2. Compile all Java files: javac*.java
-	3. Run the main program file: PharmacySystem.java
-	4. Make sure PharmacySystem.java contains the main method
-	5. Follow the on-screen instructions displayed in the console:
+	1. Ensure you have Java JDK 8 or higher installed on your computer.
+	2. Open command prompt or terminal and go to your project directory: cd [project-folder-name]/src
+	2. Compile all Java source files: javac *.java
+	3. Run the main program file (make sure it contains the main method): java PharmacyManagerSystem
+	4. Make sure PharmacyManagerSystem.java contains the main method
+	5. Follow the on-screen instructions displayed in the console to:
 		- Add patients
 		- Search prescriptions
 		- Confirm transactions
 		- Generate receipts
 		
-**Option 2:** Run Using an IDE
+**📌 Option 2:** Run Using an IDE
 
-	1. Open your IDE (IntelliJ, Eclipse, or VS Code)
-	2. Import the project folder: pharmacy-prescription-manager
-	3. Open the file: PharmacySystem.java
-	4. Click “Run/▶️” or press Shift + F10
-	5. The program will start in the IDE’s console window, where you can interact with it
+	1. Open your IDE (e.g., IntelliJ, Eclipse, VS Code, etc.)
+	2. Import or open the project folder: [project-folder-name]
+	3. Locate and open the main file: PharmacyManagerSystem.java
+	4. Click the “Run or ▶️” button or press Shift + F10
+	5. The program will launch in the IDE’s console window, allowing you to interact with it
+	
+**📌 Option 3:** Run from a JAR File
 
-**Option 3:** Run from a JAR File
+	If you have exported the program into a '.jar file' (example, 'PharmacyManagerSystem.jar'), you can run it using the command below:
 
-If you’ve exported the program into a .jar file (for example, PharmacySystem.jar), run it with: java -jar PharmacySystem.jar.
+	java -jar PharmacyManagerSystem.jar
