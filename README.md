@@ -38,3 +38,11 @@ The Pharmacy Prescription Transaction Manager is a Java-based system that helps 
 	If you have exported the program into a '.jar file' (example, 'PharmacyManagerSystem.jar'), you can run it using the command below:
 
 	java -jar PharmacyManagerSystem.jar
+
+**🗎 REVISIONS**
+
+We made minor revisions both to our system and documentation to better demonstrate our algorithmic improvements:
+
+1. In the Results and Discussion section, we added a baseline comparison from an existing study. The statement reads: “Consequently, the system demonstrates a marked improvement in transaction speed and accuracy, effectively mitigating the inefficiencies inherent in sequential search methods with O(n) complexity typical of manual processes.” This addition highlights how similar systems transition from a linear search approach to a hashing algorithm.
+   
+2. We also included a comparison table and sample code in the same section to directly compare the existing method to our implementation, clearly highlighting the complexity differences and performance improvements achieved by our system.
